@@ -108,4 +108,16 @@ public class LinearSearcherTests
         var ex = Assert.Throws<ArgumentNullException>(() => _searcher.FindIndex(data, query));
         Assert.That(ex.ParamName, Is.EqualTo("data"));
     }
+    
+    [Test]
+    public void FindIndex_ThrowsArgumentNullException_WhenQueryIsNull()
+    {
+        // Arrange
+        var data = new List<string>();
+        const string query = null;
+
+        // Act & Assert
+        var ex = Assert.Throws<ArgumentNullException>(() => _searcher.FindIndex(data, query));
+        Assert.That(ex.ParamName, Is.EqualTo("query"));
+    }
 }
