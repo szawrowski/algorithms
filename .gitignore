@@ -1,0 +1,85 @@
+### Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+### Diagnostic Reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+### Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+### Build & Compiled Files
+build/
+lib-cov/
+coverage/
+*.lcov
+.nyc_output/
+
+### Dependency Directories
+node_modules/
+web_modules/
+
+### TypeScript
+*.tsbuildinfo
+
+### Caches
+.cache
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.vitepress/cache/
+.vuepress/dist/
+.nuxt/
+.docusaurus/
+.serverless/
+.dynamodb/
+.turbo/
+
+### REPL & Debugging
+.node_repl_history
+.tern-port
+
+### IDE & Editor Files
+.idea/
+.vscode/
+*.suo
+*.njsproj
+*.sln
+*.swp
+.vscode-test/
+
+### Package Managers
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Environment Variables
+.env
+.env.local
+.env.*.local
+
+### Output Files
+*.tgz
+.next/
+out/
+dist/
+**/.vitepress/dist/
+
+### OS-Specific Files
+.DS_Store
+Thumbs.db
+../../Desktop/desktop.ini
